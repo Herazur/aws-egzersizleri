@@ -10,6 +10,7 @@ Hedefler
 
 - Bölgeleri değiştir
 
-![Ekran Görüntüsü - 2022-03-06 07-29-34](https://user-images.githubusercontent.com/68228757/156909373-107e6428-5410-4031-a1f2-99f180a49f1a.png)
+![Ekran Görüntüsü - 2022-03-06 07-54-36](https://user-images.githubusercontent.com/68228757/156909824-0f54edc6-1b74-4631-be81-2269bbf0dd1a.png)
 
-![Ekran Görüntüsü - 2022-03-06 07-34-57](https://user-images.githubusercontent.com/68228757/156909387-d13121e7-7cb0-4c56-a8ec-c56d817723d0.png)
+![Ekran Görüntüsü - 2022-03-06 07-56-20](https://user-images.githubusercontent.com/68228757/156909840-f013b1b5-3133-4b0b-9495-be6294cfb6ec.png)
+
