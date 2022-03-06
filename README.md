@@ -4,11 +4,11 @@ AWS Management Console'u tanıyın
 Hedefler
 --
 
--Bir AWS Bütçesi Oluşturun
+- Bir AWS Bütçesi Oluşturun
 
--Servis panolarına bakın
+- Servis panolarına bakın
 
--Bölgeleri değiştir
+- Bölgeleri değiştir
 
 --
 
