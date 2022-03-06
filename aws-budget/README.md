@@ -49,6 +49,6 @@ Bütçenizin durumundan haberdar olmak için, bütçelenen tutarınıza göre en
 
 **Set alert threshold**
 
-- Uyarı eşiğini ayarla altında ,Threshold için, size bildirilmesi için ulaşılması gereken tutarı girin. Bu, absolute (mutlak) bir değer veya % (yüzde) bir değer olabilir. 
+- Uyarı eşiğini ayarla altında ,Threshold için, size bildirilmesi için ulaşılması gereken tutarı girin. Bu, **absolute (mutlak)** bir değer veya **% (yüzde)** bir değer olabilir. 
 
-- Tutarın yanında, maliyetleriniz eşik tutarını aştığında bildirilmesini istiyorsanız **Absolute value**. Veya maliyetleriniz eşik yüzdesini aştığında bildirilmesini istiyorsanız % of budgeted amount seçin.
+- Tutarın yanında, maliyetleriniz eşik tutarını aştığında bildirilmesini istiyorsanız **Absolute value**. Veya maliyetleriniz eşik yüzdesini aştığında bildirilmesini istiyorsanız **% of budgeted amount** seçin.
