@@ -52,7 +52,7 @@ AWS Bütçeleri, her yeni dönemin başında, temel zaman aralığında maliyet 
 Uyarıları yapılandır
 --
 
-- Neden bütçe uyarıları oluşturmalısınız?
+Neden bütçe uyarıları oluşturmalısınız?
 
 Bütçenizin durumundan haberdar olmak için, bütçelenen tutarınıza göre en fazla 5 farklı uyarı oluşturabilirsiniz. Örneğin, bütçelenmiş tutarınızın %75'ine ulaştığınızda sizi bilgilendirmek için bir uyarı oluşturun.
 
