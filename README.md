@@ -49,5 +49,11 @@ AWS Bütçeleri, her yeni dönemin başında, temel zaman aralığında maliyet 
 
 Örneğin, son altı aylık temel zaman aralığıyla otomatik olarak ayarlanan bir maliyet bütçesi oluşturabilirsiniz. Bu senaryoda, son altı ayda her bütçe döneminde ortalama harcamanız 100 TL ise, yeni dönemde otomatik olarak ayarlanan bütçe tutarınız 100 TL olur.
 
+Uyarıları yapılandır
+--
+
+- Neden bütçe uyarıları oluşturmalısınız?
+
+Bütçenizin durumundan haberdar olmak için, bütçelenen tutarınıza göre en fazla 5 farklı uyarı oluşturabilirsiniz. Örneğin, bütçelenmiş tutarınızın %75'ine ulaştığınızda sizi bilgilendirmek için bir uyarı oluşturun.
 
 
