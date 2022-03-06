@@ -1,4 +1,4 @@
-Laboratuvar 3: EC2 örneğinde Apache web sunucusunu kurun ve ondan image oluşturun
+Laboratuvar 2: EC2 örneğinde Apache web sunucusunu kurun ve ondan image oluşturun
 --
 
 - Lab 1'de yaptığımız gibi bir Amazon Linux EC2 Bulut Sunucusuna SSH ile bağlanın.
