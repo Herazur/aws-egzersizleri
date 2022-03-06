@@ -5,7 +5,9 @@ Hedefler
 --
 
 -Bir AWS Bütçesi Oluşturun
+
 -Servis panolarına bakın
+
 -Bölgeleri değiştir
 
 --
