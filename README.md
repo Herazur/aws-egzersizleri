@@ -39,7 +39,7 @@ Maliyet bütçesi oluşturma
 
 **Budgeting method (Bütçeleme yöntemi)**, bütçe tutarınızın her bütçe döneminde nasıl belirlenmesini istediğinizi seçin:
 
-**Fixed** : Her bütçe dönemini izlemek için bir tutar belirleyin.
+**Fixed :** Her bütçe dönemini izlemek için bir tutar belirleyin.
 
 **Planned :** Her bütçe dönemini izlemek için farklı tutarlar belirleyin.
 
