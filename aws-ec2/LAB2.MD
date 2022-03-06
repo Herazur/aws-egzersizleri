@@ -39,15 +39,14 @@ chmod -R 755 /var/www/html
 - Şimdi bir web sunucusundaki instance IP'sine tekrar göz atın. Bu mesajınızı görmelisiniz. 
 'Merhaba. Bu sayfa benim AWS EC2 Linux Bulut Sunucumda barındırılıyor'
 
---
+------
+- İnstance ı seçin ve ardından **Actions, Image and Templates, Create Image.** öğesini seçin .
 
-İnstance ı seçin ve ardından **Actions, Image and Templates, Create Image.** öğesini seçin .
+- **Create Image** iletişim kutusunda, aşağıdaki bilgileri belirtin ve ardından **Create Image** öğesini seçin .
 
-**Create Image** iletişim kutusunda, aşağıdaki bilgileri belirtin ve ardından **Görüntü Oluştur** öğesini seçin .
-
-  - Image name – Görüntü için benzersiz bir ad.
-  - Image description – Görüntünün isteğe bağlı açıklaması
-  - No reboot – Bu seçenek varsayılan olarak seçili değildir. Amazon EC2 bulut sunucusunu kapatır, bağlı birimlerin anlık görüntülerini alır, AMI'yi oluşturup kaydeder ve ardından bulut sunucusunu yeniden başlatır. Bulut sunucunuzun kapanmasını önlemek için Yeniden başlatma yok'u seçin .
+  - **Image name** – Görüntü için benzersiz bir ad.
+  - **Image description** – Görüntünün isteğe bağlı açıklaması
+  - **No reboot** – Bu seçenek varsayılan olarak seçili değildir. Amazon EC2 bulut sunucusunu kapatır, bağlı birimlerin anlık görüntülerini alır, AMI'yi oluşturup kaydeder ve ardından bulut sunucusunu yeniden başlatır. Bulut sunucunuzun kapanmasını önlemek için Yeniden başlatma yok'u seçin .
 AMI'nizin oluşturulurken durumunu görüntülemek için gezinme bölmesinde AMI'ler öğesini seçin . Başlangıçta, durum ancak birkaç dakika sonra pendingdeğişmelidir .available
 
 - Yeni AMI'nizden bir örnek başlatın. Lab 1'i takip edin ve AMI sayfasında AMI'yi seçerken My AMI'yi seçin ve oluşturduğunuz AMI'yi seçin.
