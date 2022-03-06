@@ -25,3 +25,16 @@ sudo chkconfig httpd on
 - Apache Web Sunucusu Test Page Web Sayfasını görmelisiniz
 
 - Kök kullanıcı olun
+```console
+sudo su
+```
+- Basit bir özel index.html sayfası oluşturun ve /var/www/html üzerine koyun. Bu dizin, Apache web sunucusunun index.html dosyasını arayacağı varsayılan dizindir.
+```console
+echo "Merhaba. Bu sayfa benim AWS EC2 Linux Bulut Sunucumda barındırılıyor.">/var/www/html/index.html
+```
+- index.html dosyasına genel erişim vermek için html klasörünün iznini değiştirin
+```console
+chmod -R 755 /var/www/html
+```
+- Şimdi bir web sunucusundaki instance IP'sine tekrar göz atın. Aşağıdaki mesajınızı görmelisiniz
+Merhaba. Bu sayfa benim AWS EC2 Linux Bulut Sunucumda barındırılıyor.
