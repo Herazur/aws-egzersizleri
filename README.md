@@ -30,3 +30,7 @@ Bütçe türleri
 
   Rezervasyonlarınızla ilişkili kullanımı veya kapsamı takip edin ve yüzdeniz tanımladığınız eşiğin altına düştüğünde uyarı alın. Bir kapsam hedefi belirlemek, bulut sunucusu kullanımınızın ne kadarının rezervasyonlar tarafından kapsandığını görmenizi sağlarken bir kullanım hedefi belirlemek, rezervasyonlarınızın kullanılmadığını veya yeterince kullanılmadığını görmenizi sağlar. Amazon EC2, Amazon RDS, Amazon Redshift, Amazon ElastiCache ve Amazon Elasticsearch rezervasyonları için rezervasyon uyarıları desteklenir.
 
+Maliyet bütçesi oluşturma
+--
+
+**Period** için bütçenin gerçek ve tahmini harcamayı ne sıklıkta sıfırlamasını istediğinizi seçin. Her gün için Daily, Her ay için **Monthly**, **Quarterly** Üç ayda bir veya Yıllık için **Annually** seçin .
