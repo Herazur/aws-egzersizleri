@@ -39,10 +39,15 @@ Maliyet bütçesi oluşturma
 
 3. **Budgeting method (Bütçeleme yöntemi)**, bütçe tutarınızın her bütçe döneminde nasıl belirlenmesini istediğinizi seçin:
 
-  -   **Fixed :** Her bütçe dönemini izlemek için bir tutar belirleyin.
+  -   **Fixed :** Sabit bütçe ile her bütçe döneminde aynı tutarı izleyebilirsiniz. Örneğin, maliyetlerinizi her bütçe döneminde 100$'a karşı izlemek için sabit yöntemle bir maliyet bütçesi kullanabilirsiniz.
 
-  -   **Planned :** Her bütçe dönemini izlemek için farklı tutarlar belirleyin.
+  -   **Planned :** Planlı bütçeleme yöntemi yalnızca aylık veya üç aylık bütçeler için kullanılabilir. Planlı bir bütçeyle, her bir bütçe dönemini izlemek için farklı bir tutar belirleyebilirsiniz. Örneğin, maliyetlerinizi ilk aydaki 100 ABD Doları, ikinci ayda 110 ABD Doları ve kalan aylardaki diğer tutarlara karşı izlemek için planlanan yöntemle aylık bir maliyet bütçesi kullanabilirsiniz.
 
-  -   **Auto-adjusting :** Bütçe tutarınızı, belirlediğiniz bir zaman aralığında harcama şeklinize göre otomatik olarak ayarlanacak şekilde ayarlayın.
+  -   **Auto-adjusting :** Otomatik olarak ayarlanan bir bütçe, belirlediğiniz bir zaman aralığında harcamanıza veya kullanımınıza göre bütçe tutarınızı dinamik olarak ayarlar. Seçtiğiniz geçmiş veya tahmin zaman aralığı, bütçeniz için otomatik ayarlama temelidir.
+
+AWS Bütçeleri, her yeni dönemin başında, temel zaman aralığında maliyet veya kullanım verilerinizden bütçe tutarınızı hesaplar. Hesabınızın AWS maliyetleri veya kullanımı için beklentilerinize en uygun zaman aralığını seçtiğinizden emin olun. Normalde beklediğinizden daha düşük kullanıma sahip bir zaman aralığı seçerseniz, ihtiyacınız olandan daha fazla bütçe uyarısı alabilirsiniz. Normalde beklediğinizden daha yüksek kullanıma sahip bir zaman aralığı seçerseniz, ihtiyaç duyduğunuz kadar çok bütçe uyarısı alamayabilirsiniz.
+
+Örneğin, son altı aylık temel zaman aralığıyla otomatik olarak ayarlanan bir maliyet bütçesi oluşturabilirsiniz. Bu senaryoda, son altı ayda her bütçe döneminde ortalama harcamanız 100 TL ise, yeni dönemde otomatik olarak ayarlanan bütçe tutarınız 100 TL olur.
+
 
 
