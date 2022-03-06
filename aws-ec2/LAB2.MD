@@ -20,8 +20,8 @@ sudo chkconfig httpd on
 
 - **İnbound Rules** ekleyin ve **Port range** 80 ve **Source** IP'si 0.0.0.0/0 olan bir gelen kuralı ekleyin
 
-Örnek'in Genel IP adresini bir Web tarayıcısına yapıştırarak Web Sunucusunun çalışıp çalışmadığını test edin. Genel IP, Örnek Açıklama sekmesi altında bulunur.
+- İnstance'ın Public IP adresini bir Web tarayıcısına yapıştırarak Web Sunucusunun çalışıp çalışmadığını test edin. Public IP, İnstance Details sekmesi altında bulunur.
 
-Apache Web Sunucusu Hoş Geldiniz Web Sayfasını görmelisiniz
+- Apache Web Sunucusu Test Page Web Sayfasını görmelisiniz
 
-Kök kullanıcı olun
+- Kök kullanıcı olun
