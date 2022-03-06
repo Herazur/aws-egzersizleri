@@ -7,4 +7,4 @@ Basit bir Linux EC2 örneğini yapılandırın ve başlatın
 - Amazon Linux AMI'yi seçin
 - EC2 Bulut Sunucusu Türünü t2.micro seçin
 - Örnek Ayrıntılarını Yapılandır
- - Yapılandırabileceğimiz birçok parametre var ancak bu laboratuvar için onları varsayılan olarak bırakacağız.
+  - Yapılandırabileceğimiz birçok parametre var ancak bu laboratuvar için onları varsayılan olarak bırakacağız.
