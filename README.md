@@ -1,14 +1,5 @@
-AWS Management Console'u tanıyın
+Bir AWS Bütçesi Oluşturun
 --
-
-Hedefler
---
-
-- Bir AWS Bütçesi Oluşturun
-
-- Servis panolarına bakın
-
-- Bölgeleri değiştir
 
 Bütçe türleri
 --
