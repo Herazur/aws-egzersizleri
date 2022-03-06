@@ -33,4 +33,4 @@ Bütçe türleri
 Maliyet bütçesi oluşturma
 --
 
-**Period** için bütçenin gerçek ve tahmini harcamayı ne sıklıkta sıfırlamasını istediğinizi seçin. Her gün için Daily, Her ay için **Monthly**, **Quarterly** Üç ayda bir veya Yıllık için **Annually** seçin .
+- **Period** için bütçenin gerçek ve tahmini harcamayı ne sıklıkta sıfırlamasını istediğinizi seçin. Her gün için **Daily**, Her ay için **Monthly**, **Quarterly** Üç ayda bir veya Yıllık için **Annually** seçin .
