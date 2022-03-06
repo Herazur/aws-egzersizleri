@@ -44,3 +44,5 @@ Maliyet bütçesi oluşturma
   -   **Planned :** Her bütçe dönemini izlemek için farklı tutarlar belirleyin.
 
   -   **Auto-adjusting :** Bütçe tutarınızı, belirlediğiniz bir zaman aralığında harcama şeklinize göre otomatik olarak ayarlanacak şekilde ayarlayın.
+
+
