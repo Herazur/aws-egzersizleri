@@ -36,5 +36,6 @@ echo "Merhaba. Bu sayfa benim AWS EC2 Linux Bulut Sunucumda barındırılıyor."
 ```console
 chmod -R 755 /var/www/html
 ```
-- Şimdi bir web sunucusundaki instance IP'sine tekrar göz atın. Aşağıdaki mesajınızı görmelisiniz
+- Şimdi bir web sunucusundaki instance IP'sine tekrar göz atın. Bu mesajınızı görmelisiniz
+
 Merhaba. Bu sayfa benim AWS EC2 Linux Bulut Sunucumda barındırılıyor.
