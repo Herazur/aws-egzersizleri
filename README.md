@@ -33,8 +33,14 @@ Bütçe türleri
 Maliyet bütçesi oluşturma
 --
 
-- **Period** 
-bütçenin gerçek ve tahmini harcamayı ne sıklıkta sıfırlamasını istediğinizi seçin. Her gün için **Daily**, Her ay için **Monthly**, **Quarterly** Üç ayda bir veya Yıllık için **Annually** seçin .
+- **Period**, bütçenin gerçek ve tahmini harcamayı ne sıklıkta sıfırlamasını istediğinizi seçin. Her gün için **Daily**, Her ay için **Monthly**, **Quarterly** Üç ayda bir veya Yıllık için **Annually** seçin .
 
-- **Budget effective date (Bütçe geçerlilik tarihi)**, 
-bütçe döneminden sonra sıfırlanan bir bütçe için **Recurring budget (Yinelenen Bütçe)** seçin . Veya, bütçe döneminden sonra sıfırlanmayan tek seferlik bir bütçe için **Expiring budget (Süresi dolan bütçe)** seçin.
+- **Budget effective date (Bütçe geçerlilik tarihi)**, bütçe döneminden sonra sıfırlanan bir bütçe için **Recurring budget (Yinelenen Bütçe)** seçin . Veya, bütçe döneminden sonra sıfırlanmayan tek seferlik bir bütçe için **Expiring budget (Süresi dolan bütçe)** seçin.
+
+**Budgeting method (Bütçeleme yöntemi)**, bütçe tutarınızın her bütçe döneminde nasıl belirlenmesini istediğinizi seçin:
+
+**Fixed** : Her bütçe dönemini izlemek için bir tutar belirleyin.
+
+**Planned :** Her bütçe dönemini izlemek için farklı tutarlar belirleyin.
+
+**Auto-adjusting :** Bütçe tutarınızı, belirlediğiniz bir zaman aralığında harcama şeklinize göre otomatik olarak ayarlanacak şekilde ayarlayın.
