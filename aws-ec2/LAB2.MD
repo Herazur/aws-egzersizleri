@@ -14,3 +14,14 @@ sudo service httpd start
 ```console
 sudo chkconfig httpd on
 ```
+- EC2 Dashboard'a gidin ve instance ı seçin.
+
+- İnstance açıklaması altında ve Güvenlik Grubunun adına tıklayın.
+
+- **İnbound Rules** ekleyin ve **Port range** 80 ve **Source** IP'si 0.0.0.0/0 olan bir gelen kuralı ekleyin
+
+Örnek'in Genel IP adresini bir Web tarayıcısına yapıştırarak Web Sunucusunun çalışıp çalışmadığını test edin. Genel IP, Örnek Açıklama sekmesi altında bulunur.
+
+Apache Web Sunucusu Hoş Geldiniz Web Sayfasını görmelisiniz
+
+Kök kullanıcı olun
