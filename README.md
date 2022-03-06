@@ -16,7 +16,7 @@ Bütçe türleri
 - Cost budget (Maliyet bütçesi)
 
 
-Maliyetlerinizi belirli bir dolar tutarına göre izleyin ve kullanıcı tanımlı eşikleriniz karşılandığında uyarılar alın. Maliyet bütçelerini kullanarak, belirlediğiniz bütçelenmiş tutar, beklenen bulut harcamanızı temsil eder. Örneğin, bir iş birimi için bir maliyet bütçesi ayarlayabilir ve ardından ilişkili üye hesapları gibi ek parametreler ekleyebilirsiniz.
+  Maliyetlerinizi belirli bir dolar tutarına göre izleyin ve kullanıcı tanımlı eşikleriniz karşılandığında uyarılar alın. Maliyet bütçelerini kullanarak,         belirlediğiniz bütçelenmiş tutar, beklenen bulut harcamanızı temsil eder. Örneğin, bir iş birimi için bir maliyet bütçesi ayarlayabilir ve ardından ilişkili üye  hesapları gibi ek parametreler ekleyebilirsiniz.
 
 - Usage budget (Kullanım bütçesi)
 
