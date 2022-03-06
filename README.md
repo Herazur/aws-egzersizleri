@@ -56,6 +56,8 @@ Neden bütçe uyarıları oluşturmalısınız?
 
 Bütçenizin durumundan haberdar olmak için, bütçelenen tutarınıza göre en fazla 5 farklı uyarı oluşturabilirsiniz. Örneğin, bütçelenmiş tutarınızın %75'ine ulaştığınızda sizi bilgilendirmek için bir uyarı oluşturun.
 
+**Set alert threshold**
 
+Uyarı eşiğini ayarla
 
 
