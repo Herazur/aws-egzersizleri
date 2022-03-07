@@ -42,3 +42,7 @@ useradd furkan
 # TODO: password123'ü istediğiniz şifreyle değiştirin ve furkan'ı useradd'de seçilen kullanıcı adınızla değiştirin
 echo "password123" | passwd --stdin furkan
 ```
+- Komut dosyasında herhangi bir değişiklik yapmazsanız, bu komutu kullanarak birkaç dakika sonra EC2'de oturum açabilirsiniz. Parola parola123'tür. IP'yi EC2 IP'nizle değiştirin
+```
+ssh furkan@11.22.23.24
+```
