@@ -38,6 +38,6 @@ cat ~/.aws/credentials
 rm ~/.aws/credentials
 ```
 - Şimdi kovaları listelemeye çalışın. Erişim anahtarlarını temizlediğimiz için yapamazsınız.
-```
+```console
 aws s3 ls us-east-1
 ```
