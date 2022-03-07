@@ -1,4 +1,4 @@
-##Lab 7 SSH anahtarları yerine parola ile
+##Lab 7 Key pair yerine parola ile oturum açmak
 --
 
 ##adımlar
@@ -20,3 +20,8 @@ PasswordAuthentication yes
  ```console
    sudo service sshd restart
   ```
+5. EC2 oturumundan çıkın ve ardından parola doğrulamasını test etmek için oturum açın.
+```console
+ssh ec2-user@instance_publicadres
+```
+6. Sizden bir şifre istenecektir. Parolayı girin ve ec2 kurulumunda başarıyla oturum açmış olmalısınız
