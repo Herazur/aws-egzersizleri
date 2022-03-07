@@ -1,7 +1,7 @@
-##Lab 7 Key pair yerine parola ile oturum açmak
+## Lab 6 Key pair yerine parola ile oturum açmak
 
 
-##adımlar
+## adımlar
 
 1. Bir SSH ile EC2 bulut sunucunuzda oturum açın. Çalışan bir EC2 Bulut Sunucunuz yoksa bir tane oluşturun.
 2. Kullanıcı için bir şifre belirleyin. Aşağıdaki örnek, kullanıcı olarak ec2 kullanıcısını kullanır:
