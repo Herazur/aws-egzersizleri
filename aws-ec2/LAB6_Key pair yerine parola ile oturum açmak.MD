@@ -27,8 +27,9 @@ ssh ec2-user@instance_publicadres
 ```
 6. Sizden bir şifre istenecektir. Parolayı girin ve ec2 kurulumunda başarıyla oturum açmış olmalısınız
 
-Bölüm 2: Parola kimlik doğrulamasını etkinleştirme ve EC2'de ilk oturum açma için parola belirleme adımları
 ---
+## Bölüm 2: Parola kimlik doğrulamasını etkinleştirme ve EC2'de ilk oturum açma için parola belirleme adımları
+
 İlk oturum açmanız için parola ssh'yi etkinleştirmek için başlatma sırasında bu komut dosyasını EC2 kullanıcı verilerinize yapıştırın. Kullanıcıyı değiştirin ve aşağıdaki komut dosyasında TODO altındaki satırları değiştirerek geçin.
 ```
 #!/bin/bash
