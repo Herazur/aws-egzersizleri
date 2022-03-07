@@ -33,3 +33,11 @@ aws s3 ls
 ```console
 cat ~/.aws/credentials
 ```
+- Dosyayı silin. Bu, kimlik bilgilerini kaldıracak
+```console
+rm ~/.aws/credentials
+```
+- Şimdi kovaları listelemeye çalışın. Erişim anahtarlarını temizlediğimiz için yapamazsınız.
+```
+aws s3 ls us-east-1
+```
