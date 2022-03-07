@@ -3,9 +3,9 @@
 
 - Konsolu kullanarak örnek deposu destekli bir AMI seçmek için Amazon EC2 konsolunu açın.
 
-- Örneği Başlat'a tıklayın
+- **Launch Instances**'a tıklayın
 
-- Sol Gezinti kutusundan Topluluk AMI'lerini (Community AMIs) seçin .
+- Sol Gezinti kutusundan Topluluk AMI'lerini **(Community AMIs)** seçin .
 
 - **Root device type** seçeneği altındaki filtre listelerinden **Instance store** seçin.
 
