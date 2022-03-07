@@ -1,4 +1,4 @@
-## Lab 6 Key pair yerine parola ile oturum açmak
+## Key pair yerine parola ile oturum açmak
 
 
 ## adımlar
