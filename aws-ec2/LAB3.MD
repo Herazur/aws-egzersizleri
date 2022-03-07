@@ -41,3 +41,27 @@ rm ~/.aws/credentials
 ```console
 aws s3 ls us-east-1
 ```
+
+BÖLÜM 2: IAM Rolleri ile İzinler
+--
+
+- IAM Dashboard'a gidin ve Roles'e tıklayın
+- Create Role'e tıklayın
+- Kullanım durumu (Use case) için EC2'yu seçin
+- Sonraki adım olarak AmazonS3FullAccess politikasını seçin ve bu role ekleyin. Ayrıca bu rol için AmazonEC2FullAccess politikasını da ekleyin. Bu rolü bir sonraki laboratuvarda yeniden kullanacağız.
+- Bir sonraki adım olarak rol için ad ve açıklama girin. Ekli S3 ve EC2 erişim ilkelerine sahip olduğunuzu doğrulayın ve Rolü oluşturun.
+- EC2 instance sayfasına gidin. EC2 bulut sunucusunu seçin, Actions > Security > Modify IAM Role tıklayın ve bir önceki adımda oluşturduğumuz rolü ekleyin.
+- Şimdi EC2 örneğinize girin .
+- s3 kovalarını listeleyelim. Yapabilmelisin
+- Rolü kaldırırsanız erişimin yine olmayacağını anlayacaksınız. (isteğe bağlı)
+Artık erişim anahtarlarını ve Rolü kullanarak S3 ve diğer AWS hizmetlerine nasıl erişim verileceğini görüyorsunuz. Geçici Kimlik Bilgileri kullandığından Roller'in daha güvenli olduğunu da biliyorsunuz.
+- Aynı örneği bir sonraki laboratuvar için tutalım. O zamana kadar örneğinizi (instace) ı durdurabilirsiniz.
+
+## Roller nasıl çalışır?
+Roller, her 30 dakikada bir dönen geçici kimlik bilgilerini kullanır ve sabit kodlama anahtarlarından çok daha güvenlidir.
+
+- EC2'ye eklenen rol için geçici kimlik bilgilerini görüntülemek için bu komutu EC2'nizin içine yazın.
+
+```console
+curl 169.254.169.254/latest/meta-data/iam/security-credentials/{rol-adınız}
+```
