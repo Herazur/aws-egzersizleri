@@ -5,11 +5,11 @@ Lab 04 : AWS EC2 Komut Satırı Arayüzü komutları
 
 1. CLI ile bir EC2 örneği oluşturun:
 ```console
-aws ec2 run-instances --image-id ami-0c293f3f676ec4f90 --instance-type t2.micro
+aws ec2 run-instances --image-id ami-8c1be5f6 --instance-type t2.micro 
 ```
 2. Windows AMI ile başka bir örnek başlatalım
 ```console
-aws ec2 run-instances --image-id ami-0c19f80dba70861db --instance-type t2.micro
+aws ec2 run-instances --image-id ami-07a29e78aeb420471 --instance-type t2.micro 
 ```
 3. Tüm örneği ve ayrıntılarını listeleyin.
 ```console
