@@ -26,3 +26,17 @@ PasswordAuthentication yes
 ssh ec2-user@instance_publicadres
 ```
 6. Sizden bir şifre istenecektir. Parolayı girin ve ec2 kurulumunda başarıyla oturum açmış olmalısınız
+
+---
+İlk oturum açmanız için parola ssh'yi etkinleştirmek için başlatma sırasında bu komut dosyasını EC2 kullanıcı verilerinize yapıştırın. Kullanıcıyı değiştirin ve aşağıdaki komut dosyasında TODO altındaki satırları değiştirerek geçin.
+
+#!/bin/bash
+sed 's/PasswordAuthentication no/PasswordAuthentication yes/' -i /etc/ssh/sshd_config
+systemctl restart sshd
+service sshd restart
+```console
+#TODO: furkan'ı istediğiniz kullanıcı adıyla değiştirin
+useradd furkan
+# TODO: password123'ü istediğiniz şifreyle değiştirin ve furkan'ı useradd'de seçilen kullanıcı adınızla değiştirin
+echo "password123" | passwd --stdin furkan
+```
