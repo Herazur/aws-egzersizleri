@@ -38,12 +38,9 @@ systemctl restart sshd
 service sshd restart
 
 #TODO: furkan'ı istediğiniz kullanıcı adıyla değiştirin
-```console
 useradd furkan
-```
-```
+
 # TODO: password123'ü istediğiniz şifreyle değiştirin ve furkan'ı useradd'de seçilen kullanıcı adınızla değiştirin
-```console
 echo "password123" | passwd --stdin furkan
 ```
 - Komut dosyasında herhangi bir değişiklik yapmazsanız, bu komutu kullanarak birkaç dakika sonra EC2'de oturum açabilirsiniz. Parola parola123'tür. IP'yi EC2 IP'nizle değiştirin
