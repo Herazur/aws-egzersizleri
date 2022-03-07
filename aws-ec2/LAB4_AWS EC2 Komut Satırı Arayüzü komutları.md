@@ -1,7 +1,7 @@
 Lab 04 : AWS EC2 Komut Satırı Arayüzü komutları
 --
 
-* 22 numaralı bağlantı noktası açıkken bir EC2 bulut sunucusu başlatmak için Amazon Linux AMI'yi kullanın Bölgenizdeki AMI Kimliğini not edin Yap
+* 22 numaralı bağlantı noktası (SSH) açıkken bir EC2 bulut sunucusu başlatmak için Amazon Linux AMI'yi kullanın Bölgenizdeki AMI Kimliğini not edin Yap
 
 1. CLI ile bir EC2 örneği oluşturun:
 ```console
