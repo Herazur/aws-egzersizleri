@@ -1,3 +1,6 @@
+Amazon EC2'de WordPress Kurulumu
+--
+
 - EC2 panasonda instance oluşturulalım
 - AMI seçiminde AWS Marketplace geçip arama işlevini kullanarak, 'Bitnami ve Automattic Tarafından Onaylı WordPress' seçin.
 - Default ayarlarıyla devam edin.
