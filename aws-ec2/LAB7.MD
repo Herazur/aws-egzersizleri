@@ -16,9 +16,15 @@ sudo service httpd start
 ```console
 sudo cat /var/log/httpd/access_log
 ```
-Artık cloudwatch loglarını kurmaya hazırız.
-
-4. Sihirbazla cloudwatch aracısını yeniden yapılandırın
+4.Cloudwatch Unified Agent'ı indirin.
+```console
+wget https://s3.amazonaws.com/amazoncloudwatch-agent/amazon_linux/amd64/latest/amazon-cloudwatch-agent.rpm
+```
+5.Cloudwatch Agent'ı yükleyin
+```console
+sudo rpm -U ./amazon-cloudwatch-agent.rpm
+```
+6. Sihirbazla cloudwatch aracısını yeniden yapılandırın
 ```console
 sudo /opt/aws/amazon-cloudwatch-agent/bin/amazon-cloudwatch-agent-config-wizard
 ```
