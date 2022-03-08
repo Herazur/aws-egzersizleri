@@ -30,7 +30,7 @@ ssh ec2-user@instance_publicadres
 ---
 ## Bölüm 2: Parola kimlik doğrulamasını etkinleştirme ve EC2'de ilk oturum açma için parola belirleme adımları
 
-İlk oturum açmanız için parola ssh'yi etkinleştirmek için başlatma sırasında bu komut dosyasını EC2 kullanıcı verilerinize yapıştırın. Kullanıcıyı değiştirin ve aşağıdaki komut dosyasında TODO altındaki satırları değiştirerek geçin.
+ İlk oturum açmanız için parola ssh'yi etkinleştirmek için başlatma sırasında bu komut dosyasını EC2 User data'ya yapıştırın. Komut dosyasında TODO altındaki satırları değiştirerek geçin.
 ```
 #!/bin/bash
 sed 's/PasswordAuthentication no/PasswordAuthentication yes/' -i /etc/ssh/sshd_config
