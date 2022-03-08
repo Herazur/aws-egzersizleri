@@ -1,0 +1,3 @@
+- EC2 panasonda instance oluşturulalım
+- AWS Marketplace'de Arama işlevini kullanarak, 'Bitnami ve Automattic Tarafından Onaylı WordPress' için arama yapın ve seçin.
+- 
