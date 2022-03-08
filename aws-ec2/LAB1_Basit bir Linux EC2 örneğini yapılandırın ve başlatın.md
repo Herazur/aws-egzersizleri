@@ -17,4 +17,3 @@ Basit bir Linux EC2 örneğini yapılandırın ve başlatın
 - Oluşturduğunuz instanceın runnning durumuna geçmesini bekleyin
 - terminale geçip indirdiğiniz key pair dosyasının bulunduğu klasöre geçin ve chmod 400 keypairadi.pem diyin
 - ssh -i **keypairadi.pem** ec2-user@**instancepublicip**
-- Tebrikler
