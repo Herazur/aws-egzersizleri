@@ -42,5 +42,10 @@ Seçimlerimi buradan kontrol edin. Bazıları dışında seçeneklerin çoğu va
 
 ![Ekran Görüntüsü - 2022-03-08 11-02-41](https://user-images.githubusercontent.com/68228757/157192962-fe75c613-7dd4-4768-afcd-a8f85c6d89ab.png)
 
+7. Kurulumu bitirdik.
+8. Bulut izleme aracısını başlatalım
+```console
+sudo /opt/aws/amazon-cloudwatch-agent/bin/amazon-cloudwatch-agent-ctl -a fetch-config -m ec2 -c file:/opt/aws/amazon-cloudwatch-agent/bin/config.json -s
+```
 
-
+birkaç dakika bekleyin ve loglar cloudwatch Yönetim konsolunda görünmelidir.AWS Yönetim konsolundaki **Logs** sayfasında access_logs arayın.
