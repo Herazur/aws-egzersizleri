@@ -8,6 +8,4 @@
 
 ![Ekran Görüntüsü - 2022-03-08 17-41-14](https://user-images.githubusercontent.com/68228757/157261630-d3ace3a2-01ac-4ef7-a618-fad1561f09d4.png)
 
-![Ekran Görüntüsü - 2022-03-08 17-47-35](https://user-images.githubusercontent.com/68228757/157261728-c2c16242-6d94-42d7-a018-8774f0461dad.png)
-
 ![Ekran Görüntüsü - 2022-03-08 17-47-35](https://user-images.githubusercontent.com/68228757/157261874-7ee0a11b-4068-4381-b9a5-40ea2dde5c9e.png)
