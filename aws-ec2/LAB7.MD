@@ -1,8 +1,8 @@
-Cloudwatch birleşik aracısını EC2 bulut sunucusuna kurun. Amazon Linux AMI kullanarak Özel Metrikler Toplayın
+Apache web sunucusu loglarını cloudwatch'a gönderin
 --
 
-1. Her şeyden önce, EC2 bulut sunucularının ölçümleri cloudwatch'a gönderebilmesi için gerekli IAM rollerini oluşturun
-2. EC2 Eşgörünümü için IAM Rolü oluştururken ilkeler(policy) listesinde, CloudWatchAgentServerPolicy yanındaki onay kutusunu seçip attach edin .
-3. Güvenlik grubunda 80 ve 22 numaralı bağlantı noktaları açık olan bir EC2 bulut sunucusu başlatın.
-4. Örneğe ssh ile bağlanın
-5. 
+Bu laboratuvar çalışmasında, apache httpd loglarını cloudwatch'a göndereceğiz ve loglarımızı AWS Managemenet Konsolundan kontrol edeceğiz.
+
+## adımlar
+
+1. Önce bazı web trafik günlükleri oluşturmak için bir web sunucusu kurup başlatalım. Bu komut, RHEL ve Amazon Linux için çalışır.
