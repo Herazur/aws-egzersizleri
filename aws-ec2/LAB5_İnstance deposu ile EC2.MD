@@ -11,6 +11,6 @@
 
 - Herhangi bir Amazon Linux AMI'sini seçin
 
-- Tüm bulut sunucusu türleri (örn. t2.micro) Root device type olarak Örnek deposunu desteklemediği için herhangi bir bulut sunucusu tipi seçemezsiniz. Instance Type olarak m1.small seçelim.
+- Tüm bulut sunucusu türleri (örn. t2.micro) Root device type olarak Örnek deposunu desteklemediği için herhangi bir bulut sunucusu tipi seçemezsiniz. Instance Type olarak **m1.small** seçelim.
 
 - Bundan sonra, örneği her zamanki gibi başlatın.
