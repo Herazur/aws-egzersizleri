@@ -28,4 +28,4 @@ def lambda_handler(event, context):
 }
 ```
 7. Test eventi girdikten sonra test edin ve sonucu **response**'da görün
-8. Test event'te Earth yerine Sun veya olmayan bir gezegen girip sonuçları tekrar gözlemleyebilirsini.
+8. Test event'te **Earth** yerine **Sun** veya olmayan bir gezegen girip sonuçları tekrar gözlemleyebilirsin.
